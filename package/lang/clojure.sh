@@ -1,9 +1,10 @@
 #!/bin/bash
 
-JAVA_ID=24.ea.20-open
+# install java
+sudo apt install -y openjdk-17-jdk
 
 # install dependencies
-sudo apt install -y openjdk-17-jdk
+sudo apt install -y bash
 sudo apt install -y curl
 sudo apt install -y rlwrap
 
