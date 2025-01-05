@@ -10,6 +10,7 @@ source package/clojure.sh
 source package/node.sh
 
 source package/nvim.sh
+source package/code.sh
 
 # clone repos from github
 source github/inkline.sh
