@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# init apt
+sudo apt update
+sudo apt upgrade -y
+
 # install packages
 source package/zip.sh
 source package/unzip.sh
