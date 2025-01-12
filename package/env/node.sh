@@ -3,11 +3,11 @@
 # install dependencies
 sudo apt install -y curl
 
-# apply dependencies
-source $HOME/.bashrc
-
 # install FNM
 curl -fsSL https://fnm.vercel.app/install | bash
+
+# apply FNM
+source $BASHRC
 
 # install node v22
 fnm install 22
