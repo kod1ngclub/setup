@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JAVAVER=25.ea.5-open
+JVMD=25.ea.5-open
 
 # install dependencies
 sudo apt install -y bash
@@ -12,11 +12,11 @@ sudo apt install -y unzip
 curl -s "https://get.sdkman.io" | bash
 
 # install JVM
-sdk install java $JAVAVER
-sdk default java $JAVAVER
+sdk install java $JVMD
+sdk default java $JVMD
 
 # install gradle
 sdk install gradle
 
-# install java
-sdk install java
+# install kotlin
+sdk install kotlin
