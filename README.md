@@ -1,7 +1,13 @@
 # setup
 
-Just use this command, and everything will be installed and setuped
+Download repository and use following commmand
 
 ```bash
 source install.sh
 ```
+
+> **Dependancy**
+> - apt
+> - bash
+> - git
+
