@@ -20,6 +20,8 @@ source package/env/node.sh
 source package/env/java.sh
 
 # clone repos from github
-source github/setup.sh
-source github/kod1nghub.sh
-source github/homepage2.sh
+git clone https://github.com/kod1ngclub/kod1ngclub.git
+git clone https://github.com/kod1ngclub/howc.git
+git clone https://github.com/kod1ngclub/ctl.git
+git clone https://github.com/kod1ngclub/ccli.git
+
