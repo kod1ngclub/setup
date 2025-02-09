@@ -15,25 +15,25 @@ source install.sh
 ## Tools
 
 ```bash
+# tools/ping
 source ping.sh
 
-# then?     => print "Pong!"
+# then?         => print "Pong!"
 ```
 
 ```bash
-# github/clone
+# tools/github/clone
 source clone.sh <target>
 
-# <target>  = /home/john/repos
-# then?     => clone repositories under /home/john/repos
+# if <target>   = /home/john/repos
+# then?         => clone repositories under /home/john/repos
 ```
 
 ```bash
-# github/backup
-souce backup <target> <name>
+# tools/github/backup
+souce backup.sh <target> <name>
 
-
-# <target>  = /media/john/disk
-# <name>    = github.tar.gz
-# then?     => backup file at /media/john/disk/github.tar.gz
+# if <target>   = /media/john/disk
+# if <name>     = github.tar.gz
+# then?         => backup file at /media/john/disk/github.tar.gz
 ```
