@@ -1,15 +1,14 @@
 #!/bin/bash
 
-# install clang
+# ==== clang (compiler)
 sudo apt install -y clang
 
-# install make (build tool)
+# ==== clangd (LSP)
+sudo apt install -y clangd
+
+# ==== makefile
 sudo apt install -y make
 
-# install valgrind & gprof & perf
+# ==== debug tools (valgrind & gprof)
 sudo apt install -y valgrind
 sudo apt install -y gprof
-sudo apt-get install linux-tools-common linux-tools-generic
-
-# install clangd (LSP)
-sudo apt install -y clangd

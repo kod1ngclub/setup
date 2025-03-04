@@ -7,16 +7,25 @@ sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/
 echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
 rm -f packages.microsoft.gpg
 
-# install clang
-code --install-extension llvm-vs-code-extensions.vscode-clangd  # clangd
-code --install-extension ms-vscode.makefile-tools               # makefile
+# ==== clang
+code --install-extension llvm-vs-code-extensions.vscode-clangd
+code --install-extension ms-vscode.makefile-tools
 
-# install theme
-code --install-extension akamud.vscode-theme-onelight           # color:    onelight
-code --install-extension PKief.material-icon-theme              # icon:     material icon
+# ==== python
+code --install-extension ms-python.python
 
-# install markdown util
-code --install-extension DavidAnson.vscode-markdownlint         # markdown lint
-code --install-extension yzane.markdown-pdf                     # markdown to pdf
-code --install-extension pdconsec.vscode-print                  # print markdown
+# ==== kotlin
+code --install-extension fwcd.kotlin
+code --install-extension vscjava.vscode-gradle
 
+# ==== copilot
+code --install-extension GitHub.copilot
+code --install-extension GitHub.copilot-chat
+
+# ==== markdown
+code --install-extension pdconsec.vscode-print
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension yzane.markdown-pdf
+
+# ==== liveserver
+code --install-extension ms-vscode.live-server
