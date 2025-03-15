@@ -12,5 +12,10 @@ source package/util/ranger.sh
 source package/ide/code.sh
 source package/ide/nvim.sh
 
+source package/env/node.sh
+source package/env/python3.sh
+
 source package/env/clang.sh
 source package/env/kotlin.sh
+source package/env/elixir.sh
+
